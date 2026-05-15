@@ -11,12 +11,12 @@ This document captures naming conventions used in the Human Interaction Lab to a
  
 # GitHub
 The following specifications establish naming naming conventions and workflow best practices for the using the HILab's GitHub accounts. These standards are platform agnostic and may be applied to nearly any general Git workflow.
- 
-## Repository names
 
 Project repositories should be created by a team lead with access to the HILab's GitHub account. Project team members may then be added as collaborators on the repository. Once added they may clone a copy of the repository to workin and submit committed changes to. Once commits are submitted, the submitter should create a pull request from the GitHub site for review.
 
 To set up repository to require pull requests before merging to main, go to the repository and navigate to Settings → Branches. Under Branch protection rules click Add rule. Enter "main" as the branch name pattern, then check Require a pull request before merging. Save the rule. Optionally you can also enable Require approvals (under the same rule) to enforce at least one reviewer signs off before merging.
+ 
+## Repository names
 
 General guidelines:
 - Use all lowercase letters
